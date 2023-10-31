@@ -47,7 +47,7 @@ Python é versátil e amplamente usado em segurança cibernética. C++ é valios
 O Linux é preferido devido à sua natureza de código aberto, flexibilidade e disponibilidade de ferramentas de segurança.
 
 **Distribuições Linux para segurança:**  
-Kali Linux é uma distribuição especializada em segurança que inclui várias ferramentas úteis. Você pode aprender comandos básicos do Kali Linux aqui.
+Kali Linux é uma distribuição especializada em segurança que inclui várias ferramentas úteis. Você pode aprender comandos básicos do Kali Linux em (kali.org).
 
 ## Conhecimento de Redes
 
