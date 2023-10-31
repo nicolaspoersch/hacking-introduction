@@ -17,5 +17,5 @@
 
 # Language Selection / Escolha do Idioma
 
-- [English](#https://github.com/nicolaspoersch/hacking-introduction/blob/main/EN.md)
+- [English](https://github.com/nicolaspoersch/hacking-introduction/blob/main/EN.md)
 - [Português](#portuguese-version) <!-- Link para a tradução em português -->
