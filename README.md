@@ -19,3 +19,4 @@
 
 - [English](https://github.com/nicolaspoersch/hacking-introduction/blob/main/EN.md)
 - [Portuguese](https://github.com/nicolaspoersch/hacking-introduction/blob/main/PT-BR.md)
+- [Free Courses](https://github.com/nicolaspoersch/hacking-introduction/blob/main/Courses.md)
