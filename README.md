@@ -18,4 +18,4 @@
 # Language Selection / Escolha do Idioma
 
 - [English](https://github.com/nicolaspoersch/hacking-introduction/blob/main/EN.md)
-- [Portuguese](https://github.com/nicolaspoersch/hacking-introduction/blob/main/PT-BR.md) <!-- Link para a tradução em português
+- [Portuguese](https://github.com/nicolaspoersch/hacking-introduction/blob/main/PT-BR.md)
