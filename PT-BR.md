@@ -38,8 +38,14 @@ A importância de seguir um código de ética, obter permissão e divulgar vulne
 
 ## Aprender Programação
 
-**Linguagens de programação essenciais (Python, C++, etc.):**  
-Python é versátil e amplamente usado em segurança cibernética. C++ é valioso para entender vulnerabilidades de baixo nível. Java é importante para entender aplicativos baseados em Java.
+## Linguagens de programação essenciais (Python, C++, etc.):
+
+- **Python:** Como uma linguagem de programação essencial, o Python é valorizado por sua simplicidade, ampla biblioteca de suporte e versatilidade. Aprenda a escrever scripts para automatizar tarefas e a criar ferramentas personalizadas para testes de segurança.
+
+- **C++:** O C++ é fundamental para entender vulnerabilidades de baixo nível e explorar sistemas complexos. Concentre-se na programação de baixo nível, como manipulação de memória e análise de falhas.
+
+- **Java:** Para compreender aplicativos baseados em Java, estude a linguagem e a segurança associada a ela. Isso será útil ao lidar com sistemas corporativos que usam Java.
+
 
 ## Sistemas Operacionais
 
@@ -47,23 +53,43 @@ Python é versátil e amplamente usado em segurança cibernética. C++ é valios
 O Linux é preferido devido à sua natureza de código aberto, flexibilidade e disponibilidade de ferramentas de segurança.
 
 **Distribuições Linux para segurança:**  
-Kali Linux é uma distribuição especializada em segurança que inclui várias ferramentas úteis. Você pode aprender comandos básicos do Kali Linux em (kali.org).
+- Kali Linux: Uma distribuição especializada em segurança que inclui várias ferramentas úteis. Você pode aprender comandos básicos do Kali Linux em [kali.org](https://www.kali.org/).
+- Parrot Security OS: Além do Kali Linux, o Parrot Security OS é outra distribuição Linux popular para hackers éticos. Ele oferece uma variedade de ferramentas de teste de penetração e é adequado para testes e auditorias de segurança.
+- BlackArch Linux: Conhecido por sua vasta coleção de ferramentas de segurança e hacking, baseado no Arch Linux.
+- BackBox: Distribuição Linux projetada para avaliação de segurança e testes de penetração, com uma interface amigável.
+- Pentoo: Adequado para tarefas de testes de penetração e análise de segurança, baseado no Gentoo Linux.
+- Security Onion: Focado na detecção e resposta a incidentes de segurança, incluindo ferramentas de análise de tráfego de rede.
+
+**Configuração do Ambiente Linux:**  
+Aprenda a instalar e configurar distribuições Linux em ambientes virtuais usando software como o VirtualBox ou o VMware. Isso permitirá que você crie ambientes de teste para suas atividades de segurança cibernética.
 
 ## Conhecimento de Redes
 
-**Protocolos TCP/IP e seu funcionamento:**  
-O TCP/IP é fundamental para a comunicação na Internet. Entenda como os dados são empacotados, endereçados e transmitidos.
+### Protocolos TCP/IP e seu funcionamento:
 
-**Endereçamento IP, sub-redes e roteamento:**  
-Aprenda a configurar redes, incluindo a criação de sub-redes e a configuração de roteadores.
+- O TCP/IP é fundamental para a comunicação na Internet. Entenda como os dados são empacotados, endereçados e transmitidos.
+
+- **Wireshark:** Aprenda a usar ferramentas como o Wireshark para capturar e analisar o tráfego de rede. Isso ajuda a compreender como os protocolos funcionam na prática.
+
+### Endereçamento IP, sub-redes e roteamento:
+
+- Aprenda a configurar redes, incluindo a criação de sub-redes e a configuração de roteadores.
+
+- **Prática em Redes Virtuais:** Configure redes virtuais para praticar conceitos de endereçamento IP e roteamento em um ambiente seguro.
 
 ## Segurança da Informação
 
-**Princípios de segurança, incluindo confidencialidade, integridade e disponibilidade:**  
-Proteja dados mantendo-os confidenciais, íntegros e disponíveis quando necessário.
+### Princípios de segurança, incluindo confidencialidade, integridade e disponibilidade:
 
-**Criptografia e autenticação:**  
-Saiba como a criptografia protege informações confidenciais e como a autenticação verifica a identidade.
+- Proteja dados mantendo-os confidenciais, íntegros e disponíveis quando necessário.
+
+- **Segurança em Camadas:** Compreenda a importância da segurança em várias camadas, desde a rede até a aplicação. Explore tecnologias como firewalls, IDS/IPS, antivírus e criptografia.
+
+- **Criptografia e autenticação:** Saiba como a criptografia protege informações confidenciais e como a autenticação verifica a identidade.
+
+- **PGP (Pretty Good Privacy):** Aprenda a usar o PGP para criptografar e assinar digitalmente mensagens e arquivos. É uma ferramenta valiosa para comunicações seguras.
+
+- **Autenticação de Dois Fatores (2FA):** Implemente a autenticação de dois fatores em suas contas online e sistemas para uma camada adicional de segurança.
 
 ## O que Aprender Inicialmente
 
@@ -114,19 +140,27 @@ Portas são números de identificação usados para direcionar o tráfego de red
 
 ### Honeypots:
 
-Honeypots são sistemas de armadilha projetados para atrair atacantes e estudar seu comportamento. Eles são úteis para a detecção e pesquisa de ameaças cibernéticas.
+- Honeypots são sistemas de armadilha projetados para atrair atacantes e estudar seu comportamento. Eles são úteis para a detecção e pesquisa de ameaças cibernéticas.
+
+- **Configurando um Honeypot:** Aprenda a configurar um honeypot em sua rede para monitorar atividades suspeitas e entender as táticas dos atacantes.
 
 ### Subdomínios:
 
-Subdomínios são extensões de um domínio principal, como "blog.example.com." É importante proteger subdomínios, pois podem ser usados para contornar o firewall do domínio raiz.
+- Subdomínios são extensões de um domínio principal, como "blog.example.com." É importante proteger subdomínios, pois podem ser usados para contornar o firewall do domínio raiz.
+
+- **Verificação de Subdomínios:** Utilize ferramentas de verificação de subdomínios para identificar e avaliar subdomínios em um domínio principal. Isso ajuda a garantir a segurança de toda a infraestrutura.
 
 ### MITM (Man-in-the-Middle):
 
-O ataque MITM envolve um invasor interceptando a comunicação entre duas partes, permitindo a captura de dados sensíveis. O uso de HTTPS ajuda a proteger contra esse tipo de ataque pois no HTTPS as informações são criptografadas e no HTTP não.
+- O ataque MITM envolve um invasor interceptando a comunicação entre duas partes, permitindo a captura de dados sensíveis. O uso de HTTPS ajuda a proteger contra esse tipo de ataque pois no HTTPS as informações são criptografadas e no HTTP não.
+
+- **Realizando um Ataque MITM Controlado:** Pratique a realização de um ataque MITM em um ambiente controlado para compreender as vulnerabilidades e aprender como se defender contra eles.
 
 ### Por Que Algumas Portas Ficam Abertas:
 
-As portas estão abertas para permitir a comunicação entre sistemas. Por exemplo, a porta 80 (HTTP) deve estar aberta para que os navegadores se conectem ao servidor web, e a porta 443 (HTTPS) é usada para conexões seguras. No entanto, manter portas não utilizadas abertas pode ser arriscado. É importante fechar ou restringir portas desnecessárias para reduzir o risco de exploração por hackers.
+- As portas estão abertas para permitir a comunicação entre sistemas. Por exemplo, a porta 80 (HTTP) deve estar aberta para que os navegadores se conectem ao servidor web, e a porta 443 (HTTPS) é usada para conexões seguras. No entanto, manter portas não utilizadas abertas pode ser arriscado. É importante fechar ou restringir portas desnecessárias para reduzir o risco de exploração por hackers.
+
+- **Varredura de Portas:** Aprenda a usar ferramentas de varredura de portas para identificar quais portas estão abertas em um sistema e avaliar sua segurança.
 
 ## Firewall
 
