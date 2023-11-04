@@ -43,11 +43,19 @@ Python is versatile and widely used in cybersecurity. C++ is valuable for unders
 
 ## Operating Systems
 
-**The importance of Linux for hackers:**  
+**Importance of Linux for Hackers:**  
 Linux is preferred due to its open-source nature, flexibility, and the availability of security tools.
 
-**Linux distributions for security:**  
-Kali Linux is a distribution specialized in security that includes various useful tools. You can learn basic Kali Linux commands in (kali.org).
+**Linux Distributions for Security:**  
+- Kali Linux: A specialized security distribution that includes various useful tools. You can learn basic Kali Linux commands at [kali.org](https://www.kali.org/).
+- Parrot Security OS: Besides Kali Linux, Parrot Security OS is another popular Linux distribution for ethical hackers. It offers a variety of penetration testing tools and is suitable for security testing and audits.
+- BlackArch Linux: Known for its extensive collection of security and hacking tools, based on Arch Linux.
+- BackBox: A Linux distribution designed for security assessment and penetration testing with a user-friendly interface.
+- Pentoo: Suitable for penetration testing and security analysis tasks, based on Gentoo Linux.
+- Security Onion: Focused on security incident detection and response, including network traffic analysis tools.
+
+**Setting Up the Linux Environment:**  
+Learn to install and configure Linux distributions in virtual environments using software like VirtualBox or VMware. This will allow you to create test environments for your cybersecurity activities.
 
 ## Networking Knowledge
 
