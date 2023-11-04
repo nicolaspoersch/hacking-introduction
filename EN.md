@@ -139,19 +139,27 @@ Ports are identification numbers used to direct network traffic to specific serv
 
 ### Honeypots:
 
-Honeypots are trap systems designed to attract attackers and study their behavior. They are useful for the detection and research of cyber threats.
+- Honeypots are trap systems designed to attract attackers and study their behavior. They are useful for detecting and researching cyber threats.
+
+- **Setting Up a Honeypot:** Learn how to set up a honeypot on your network to monitor suspicious activities and understand attackers' tactics.
 
 ### Subdomains:
 
-Subdomains are extensions of a primary domain, such as "blog.example.com." It's important to secure subdomains, as they can be used to bypass the root domain's firewall.
+- Subdomains are extensions of a primary domain, such as "blog.example.com." It's essential to secure subdomains as they can be used to bypass the root domain's firewall.
+
+- **Subdomain Enumeration:** Use subdomain enumeration tools to identify and assess subdomains within a primary domain. This helps ensure the security of the entire infrastructure.
 
 ### MITM (Man-in-the-Middle):
 
-The MITM (Man-in-the-Middle) attack involves an attacker intercepting communication between two parties, allowing the capture of sensitive data. Using HTTPS helps protect against this type of attack because in HTTPS, information is encrypted, while in HTTP, it's not.
+- MITM attack involves an attacker intercepting communication between two parties, allowing the capture of sensitive data. Using HTTPS helps protect against this type of attack as information is encrypted in HTTPS, but not in HTTP.
+
+- **Conducting a Controlled MITM Attack:** Practice conducting a MITM attack in a controlled environment to understand vulnerabilities and learn how to defend against them.
 
 ### Why Some Ports Remain Open:
 
-Ports are open to allow communication between systems. For example, port 80 (HTTP) must be open for web browsers to connect to web servers, and port 443 (HTTPS) is used for secure connections. However, keeping unused ports open can be risky. It's essential to close or restrict unnecessary ports to reduce the risk of exploitation by hackers.
+- Ports are left open to facilitate communication between systems. For example, port 80 (HTTP) must be open for web browsers to connect to a web server, and port 443 (HTTPS) is used for secure connections. However, keeping unused ports open can be risky. It's important to close or restrict unnecessary ports to reduce the risk of exploitation by hackers.
+
+- **Port Scanning:** Learn how to use port scanning tools to identify open ports on a system and assess their security.
 
 ## Firewall
 
