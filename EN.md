@@ -78,11 +78,17 @@ Learn to install and configure Linux distributions in virtual environments using
 
 ## Information Security
 
-**Security principles, including confidentiality, integrity, and availability:**  
-Protect data by keeping it confidential, integral, and available when needed.
+### Security Principles, including Confidentiality, Integrity, and Availability:
 
-**Encryption and authentication:**  
-Understand how encryption protects confidential information and how authentication verifies identity.
+- Protect data by keeping it confidential, intact, and available when necessary.
+
+- **Layered Security:** Understand the importance of security in multiple layers, from the network to the application. Explore technologies like firewalls, IDS/IPS, antivirus, and encryption.
+
+- **Encryption and Authentication:** Learn how encryption safeguards confidential information and how authentication verifies identity.
+
+- **PGP (Pretty Good Privacy):** Learn to use PGP for encrypting and digitally signing messages and files. It's a valuable tool for secure communications.
+
+- **Two-Factor Authentication (2FA):** Implement two-factor authentication in your online accounts and systems for an additional layer of security.
 
 ## What to Learn Initially
 
