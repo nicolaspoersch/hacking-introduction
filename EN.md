@@ -38,8 +38,13 @@ The importance of following an ethical code, obtaining permission, and responsib
 
 ## Learning Programming
 
-**Essential programming languages (Python, C++, etc.):**  
-Python is versatile and widely used in cybersecurity. C++ is valuable for understanding low-level vulnerabilities. Java is important for understanding Java-based applications.
+### Essential Programming Languages (Python, C++, etc.):
+
+- **Python:** As an essential programming language, Python is valued for its simplicity, extensive library support, and versatility. Learn to write scripts for automating tasks and create custom tools for security testing.
+
+- **C++:** C++ is crucial for understanding low-level vulnerabilities and exploring complex systems. Focus on low-level programming, such as memory manipulation and fault analysis.
+
+- **Java:** To comprehend Java-based applications, study the language and its associated security. This will be beneficial when dealing with corporate systems that use Java.
 
 ## Operating Systems
 
