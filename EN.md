@@ -64,11 +64,17 @@ Learn to install and configure Linux distributions in virtual environments using
 
 ## Networking Knowledge
 
-**TCP/IP protocols and how they work:**  
-TCP/IP is fundamental for communication on the Internet. Understand how data is packetized, addressed, and transmitted.
+### TCP/IP Protocols and Their Functionality:
 
-**IP addressing, subnets, and routing:**  
-Learn how to configure networks, including creating subnets and configuring routers.
+- TCP/IP is essential for communication on the Internet. Understand how data is packaged, addressed, and transmitted.
+
+- **Wireshark:** Learn to use tools like Wireshark to capture and analyze network traffic. This helps you comprehend how protocols work in practice.
+
+### IP Addressing, Subnets, and Routing:
+
+- Learn to configure networks, including creating subnets and setting up routers.
+
+- **Virtual Network Practice:** Set up virtual networks to practice IP addressing and routing concepts in a secure environment.
 
 ## Information Security
 
