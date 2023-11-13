@@ -108,7 +108,7 @@ A computer network is a set of interconnected devices that share resources and i
 
 - **Network Security:** In the context of ethical hacking, understanding security measures is crucial. This involves firewalls, encryption, intrusion detection, and access policies. The ethical hacking professional must not only comprehend how networks operate but also be aware of vulnerabilities and security practices to safeguard data integrity and confidentiality.
 
-### What is the Internet
+## What is the Internet
 
 **What is the Internet:**
 The Internet is a global network of interconnected networks. It enables worldwide communication and information sharing. The Internet is based on the TCP/IP protocol and operates as a decentralized network.
@@ -141,7 +141,7 @@ Ports are identification numbers used to direct network traffic to specific serv
 - Port 3389 (RDP): Used for Microsoft Remote Desktop Protocol (RDP).
 - Port 67/68 (DHCP): Used for automatic IP address assignment (DHCP).
 
-### Honeypots:
+## Honeypots:
 
 - Honeypots are trap systems designed to lure attackers and study their behavior, serving as valuable tools in the detection and research of cybersecurity threats.
 
@@ -167,25 +167,25 @@ Ports are identification numbers used to direct network traffic to specific serv
 
 When implementing honeypots, it is crucial to tailor the strategy to the specific needs of your network, choosing the appropriate variety and configuration to meet security objectives.
 
-### Subdomains:
+## Subdomains:
 
 - Subdomains are extensions of a primary domain, such as "blog.example.com." It's essential to secure subdomains as they can be used to bypass the root domain's firewall.
 
 - **Subdomain Enumeration:** Use subdomain enumeration tools to identify and assess subdomains within a primary domain. This helps ensure the security of the entire infrastructure.
 
-### MITM (Man-in-the-Middle):
+## MITM (Man-in-the-Middle):
 
 - MITM attack involves an attacker intercepting communication between two parties, allowing the capture of sensitive data. Using HTTPS helps protect against this type of attack as information is encrypted in HTTPS, but not in HTTP.
 
 - **Conducting a Controlled MITM Attack:** Practice conducting a MITM attack in a controlled environment to understand vulnerabilities and learn how to defend against them.
 
-### Why Some Ports Remain Open:
+## Why Some Ports Remain Open:
 
 - Ports are left open to facilitate communication between systems. For example, port 80 (HTTP) must be open for web browsers to connect to a web server, and port 443 (HTTPS) is used for secure connections. However, keeping unused ports open can be risky. It's important to close or restrict unnecessary ports to reduce the risk of exploitation by hackers.
 
 - **Port Scanning:** Learn how to use port scanning tools to identify open ports on a system and assess their security.
 
-## Firewall
+# Firewall
 
 **What is a Firewall:**
 
@@ -194,7 +194,7 @@ A firewall is a device or software that monitors and controls network traffic ba
 - **Hardware Firewall:** Physical devices that filter traffic before entering the network.
 - **Software Firewall:** Applications installed on systems to control traffic.
 
-### How a Firewall Works:
+## How a Firewall Works:
 
 A firewall operates based on rules that determine which data packets are allowed or blocked. These rules are configured by network administrators and can vary according to the organization's security needs and policies. Here is an overview of how a firewall works:
 
