@@ -38,7 +38,7 @@ A importância de seguir um código de ética, obter permissão e divulgar vulne
 
 ## Aprender Programação
 
-## Linguagens de programação essenciais (Python, C++, etc.):
+## Linguagens de programação essenciais (Python, C++, Shell/Bash Script, etc.):
 
 - **Python:** Como uma linguagem de programação essencial, o Python é valorizado por sua simplicidade, ampla biblioteca de suporte e versatilidade. Aprenda a escrever scripts para automatizar tarefas e a criar ferramentas personalizadas para testes de segurança.
 
