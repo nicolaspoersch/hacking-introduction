@@ -219,7 +219,7 @@ Um firewall opera com base em regras que determinam quais pacotes de dados são 
 
 O firewall desempenha um papel crítico na proteção da rede contra ameaças cibernéticas, permitindo o tráfego legítimo, bloqueando o tráfego indesejado e, em alguns casos, utilizando o NAT para gerenciar o acesso à Internet a partir de dispositivos internos.
 
-## Funcionamento do Antivírus
+# Antivirus
 
 Um antivírus é uma ferramenta essencial para proteger sistemas contra ameaças de malware, incluindo vírus, worms, trojans e outros tipos de software malicioso. Vamos explorar detalhadamente como um antivírus opera para garantir a segurança do sistema.
 
