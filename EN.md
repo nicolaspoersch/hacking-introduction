@@ -143,9 +143,29 @@ Ports are identification numbers used to direct network traffic to specific serv
 
 ### Honeypots:
 
-- Honeypots are trap systems designed to attract attackers and study their behavior. They are useful for detecting and researching cyber threats.
+- Honeypots are trap systems designed to lure attackers and study their behavior, serving as valuable tools in the detection and research of cybersecurity threats.
 
-- **Setting Up a Honeypot:** Learn how to set up a honeypot on your network to monitor suspicious activities and understand attackers' tactics.
+- **Setting up a Honeypot:** Learn how to set up a honeypot in your network to monitor suspicious activities and understand attackers' tactics.
+
+    - **Examples of Tools:**
+        - **Honeyd:** A tool that allows simulating multiple operating systems and services to attract attackers.
+        - **Snort:** Besides being an IDS/IPS, Snort can be configured to function as a honeypot, identifying and recording malicious activities.
+        - **Cowrie:** An SSH honeypot that records interactions with attackers attempting unauthorized access.
+
+    - **Varieties of Honeypots:**
+        - **Low-Interaction Honeypots:** Emulate services or operating systems in a limited manner, providing security without exposing the environment to significant risks.
+        - **High-Interaction Honeypots:** Are more complex, allowing a more realistic interaction, but also pose a higher risk as attackers may access a system closer to a production environment.
+
+    - **Honeypots by Configuration (Examples)**
+        - **Subdomain Honeypots:** Can be configured to simulate vulnerable subdomains, attracting attackers seeking to exploit these weaknesses.
+        - **Port-based Honeypots:** By focusing on specific ports, these honeypots can attract attackers targeting specific services.
+
+    - **Benefits:**
+        - Proactive Identification: Allows the identification of threats before they reach critical systems.
+        - Tactic Research: Offers insights into attackers' tactics, techniques, and procedures (TTPs).
+        - Continuous Learning: Contributes to the constant improvement of security posture based on identified threats.
+
+When implementing honeypots, it is crucial to tailor the strategy to the specific needs of your network, choosing the appropriate variety and configuration to meet security objectives.
 
 ### Subdomains:
 
