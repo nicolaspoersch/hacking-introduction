@@ -217,6 +217,39 @@ A firewall operates based on rules that determine which data packets are allowed
 
 The firewall plays a critical role in protecting the network from cyber threats by allowing legitimate traffic, blocking unwanted traffic, and, in some cases, using NAT to manage internet access from internal devices.
 
+# Antivirus Operation
+
+An antivirus is an essential tool to protect systems against malware threats, including viruses, worms, trojans, and other types of malicious software. Let's explore in detail how an antivirus operates to ensure system security.
+
+## Internal Database
+
+### Definition
+The antivirus maintains an internal database containing information about known viruses and malware. This database is continually updated by antivirus developers to include the latest identified threats.
+
+### Signatures
+Each known malware is associated with a unique "signature," which is a specific sequence of bytes representing a distinctive part of the malicious code. Signatures are essential for identifying and tracking the presence of malware in the system.
+
+## Verification Process
+
+### 1. Signature Verification
+When a file is accessed or executed, the antivirus checks the file's signatures against the internal database. If there is a match, the antivirus identifies the file as a known threat and takes appropriate measures.
+
+### 2. Heuristic Analysis
+In addition to known signatures, antiviruses use heuristic analysis techniques to identify suspicious behaviors. This involves evaluating the behavior of the running program to determine if its actions resemble common characteristics of malware, even if there is no exact match with existing signatures.
+
+### 3. Pattern Matching
+Antiviruses examine the code for specific patterns associated with common malicious programming techniques. This may include sequences of instructions typical of known attacks.
+
+### 4. Header and Tail Verification
+Verification of the file's header and tail is performed to identify suspicious changes in these areas. Some malware infections may modify these parts of the files to evade traditional signature-based detection.
+
+### 5. Continuous Updates
+To remain effective against constantly evolving threats, antiviruses require regular updates. These updates include new signatures, improvements in heuristic analysis, and other adaptations to address emerging threats.
+
+## Challenges and Limitations
+
+Despite advanced detection mechanisms, malicious actors can create malware with unknown and unique patterns. These malwares avoid detection by conventional methods, leveraging techniques such as polymorphism, where the malicious code continuously modifies itself to evade matching known signatures. This constant challenge underscores the need for more advanced and adaptable approaches in cybersecurity to ensure effective defense against evolving threats.
+
 ## Reinforcing Knowledge: The Importance of Practice Exercises
 
 To solidify your understanding and enhance your learning in cybersecurity and ethical hacking, it's highly recommended to perform practice exercises. These exercises can help you reinforce the concepts learned and develop practical skills. Here are some effective ways to engage in practice exercises:
