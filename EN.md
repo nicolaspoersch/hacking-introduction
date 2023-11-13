@@ -38,7 +38,7 @@ The importance of following an ethical code, obtaining permission, and responsib
 
 ## Learning Programming
 
-### Essential Programming Languages (Python, C++, Bash/Shell Script, etc.):
+### Essential Programming Languages (Python, C++, Shell/Bash Script, etc.):
 
 - **Python:** As an essential programming language, Python is valued for its simplicity, extensive library support, and versatility. Learn to write scripts for automating tasks and create custom tools for security testing.
 
