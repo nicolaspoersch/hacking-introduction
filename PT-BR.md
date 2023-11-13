@@ -145,9 +145,29 @@ Portas são números de identificação usados para direcionar o tráfego de red
 
 ### Honeypots:
 
-- Honeypots são sistemas de armadilha projetados para atrair atacantes e estudar seu comportamento. Eles são úteis para a detecção e pesquisa de ameaças cibernéticas.
+- Honeypots são sistemas de armadilha projetados para atrair atacantes e estudar seu comportamento, sendo ferramentas valiosas na detecção e pesquisa de ameaças cibernéticas.
 
-- **Configurando um Honeypot:** Aprenda a configurar um honeypot em sua rede para monitorar atividades suspeitas e entender as táticas dos atacantes.
+- **Configurando um Honeypot:** Explore como configurar um honeypot em sua rede para monitorar atividades suspeitas e compreender as táticas dos atacantes.
+
+    - **Exemplos de Ferramentas:**
+        - **Honeyd:** Uma ferramenta que permite simular múltiplos sistemas operacionais e serviços para atrair atacantes.
+        - **Snort:** Além de ser um IDS/IPS, o Snort pode ser configurado para funcionar como um honeypot, identificando e registrando atividades maliciosas.
+        - **Cowrie:** Uma honeypot SSH que grava as interações com atacantes que tentam obter acesso não autorizado.
+
+    - **Variedades de Honeypots:**
+        - **Low-Interaction Honeypots:** Emulam serviços ou sistemas operacionais de forma limitada, proporcionando segurança sem expor o ambiente a riscos significativos.
+        - **High-Interaction Honeypots:** São mais complexos, permitindo uma interação mais realista, mas também apresentam maior risco, pois o atacante pode ter acesso a um sistema mais próximo de um ambiente de produção.
+
+    - **Honeypots por Configuração (Exemplos):**
+        - **Honeypots de Subdomínios:** Podem ser configurados para simular subdomínios vulneráveis, atraindo atacantes que buscam explorar esses pontos fracos.
+        - **Honeypots de Portas:** Ao focar em portas específicas, esses honeypots podem atrair atacantes direcionados a serviços específicos.
+
+    - **Benefícios:**
+        - Identificação Proativa: Permite a identificação de ameaças antes que elas atinjam sistemas críticos.
+        - Pesquisa de Táticas: Oferece insights sobre as táticas, técnicas e procedimentos (TTPs) dos atacantes.
+        - Aprendizado Contínuo: Contribui para a melhoria constante da postura de segurança, com base nas ameaças identificadas.
+
+Ao implementar honeypots, é crucial adaptar a estratégia às necessidades específicas da sua rede, escolhendo a variedade e a configuração adequadas para atender aos objetivos de segurança.
 
 ### Subdomínios:
 
