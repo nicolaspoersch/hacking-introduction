@@ -99,7 +99,7 @@ Aprenda a instalar e configurar distribuições Linux em ambientes virtuais usan
 
 Uma rede de computadores é um conjunto de dispositivos interconectados que compartilham recursos e informações. Isso pode incluir computadores, servidores, dispositivos de rede e até mesmo a Internet. Redes permitem a troca de dados e comunicação eficiente entre dispositivos.
 
-### Entendendo o Funcionamento de uma Rede:
+## Entendendo o Funcionamento de uma Rede:
 
 - **Topologia de Rede:** As redes podem assumir diversas topologias, como estrela, barramento e malha, cada uma delineando a forma como os dispositivos se interconectam. A topologia escolhida influencia diretamente na redundância, escalabilidade e resiliência da rede.
 
@@ -110,7 +110,7 @@ Uma rede de computadores é um conjunto de dispositivos interconectados que comp
 - **Segurança na Rede:** No contexto do hacking ético, compreender as medidas de segurança é crucial. Isso envolve firewalls, criptografia, detecção de intrusos e políticas de acesso. O profissional de hacking ético deve não apenas entender como as redes operam, mas também estar ciente das vulnerabilidades e das práticas de segurança para proteger a integridade e a confidencialidade dos dados.
 
 
-### O que é a Internet
+## O que é a Internet
 
 **O que é a Internet:**
 A Internet é uma rede global de redes interconectadas. Ela permite a comunicação e o compartilhamento de informações em escala mundial. A Internet é baseada no protocolo TCP/IP e opera como uma rede descentralizada.
@@ -143,7 +143,7 @@ Portas são números de identificação usados para direcionar o tráfego de red
 - Porta 3389 (RDP): Usada para o Protocolo de Área de Trabalho Remota da Microsoft (RDP).
 - Porta 67/68 (DHCP): Usada para atribuição automática de endereços IP (DHCP).
 
-### Honeypots:
+## Honeypots:
 
 - Honeypots são sistemas de armadilha projetados para atrair atacantes e estudar seu comportamento, sendo ferramentas valiosas na detecção e pesquisa de ameaças cibernéticas.
 
@@ -169,25 +169,25 @@ Portas são números de identificação usados para direcionar o tráfego de red
 
 Ao implementar honeypots, é crucial adaptar a estratégia às necessidades específicas da sua rede, escolhendo a variedade e a configuração adequadas para atender aos objetivos de segurança.
 
-### Subdomínios:
+## Subdomínios:
 
 - Subdomínios são extensões de um domínio principal, como "blog.example.com." É importante proteger subdomínios, pois podem ser usados para contornar o firewall do domínio raiz.
 
 - **Verificação de Subdomínios:** Utilize ferramentas de verificação de subdomínios para identificar e avaliar subdomínios em um domínio principal. Isso ajuda a garantir a segurança de toda a infraestrutura.
 
-### MITM (Man-in-the-Middle):
+## MITM (Man-in-the-Middle):
 
 - O ataque MITM envolve um invasor interceptando a comunicação entre duas partes, permitindo a captura de dados sensíveis. O uso de HTTPS ajuda a proteger contra esse tipo de ataque pois no HTTPS as informações são criptografadas e no HTTP não.
 
 - **Realizando um Ataque MITM Controlado:** Pratique a realização de um ataque MITM em um ambiente controlado para compreender as vulnerabilidades e aprender como se defender contra eles.
 
-### Por Que Algumas Portas Ficam Abertas:
+## Por Que Algumas Portas Ficam Abertas:
 
 - As portas estão abertas para permitir a comunicação entre sistemas. Por exemplo, a porta 80 (HTTP) deve estar aberta para que os navegadores se conectem ao servidor web, e a porta 443 (HTTPS) é usada para conexões seguras. No entanto, manter portas não utilizadas abertas pode ser arriscado. É importante fechar ou restringir portas desnecessárias para reduzir o risco de exploração por hackers.
 
 - **Varredura de Portas:** Aprenda a usar ferramentas de varredura de portas para identificar quais portas estão abertas em um sistema e avaliar sua segurança.
 
-## Firewall
+# Firewall
 
 **O que é um Firewall:**
 
@@ -196,7 +196,7 @@ Um firewall é um dispositivo ou software que monitora e controla o tráfego de 
 - **Firewall de Hardware:** Dispositivos físicos que filtram o tráfego antes de entrar na rede.
 - **Firewall de Software:** Aplicativos instalados em sistemas para controlar o tráfego.
 
-### Funcionamento do Firewall:
+## Funcionamento do Firewall:
 
 Um firewall opera com base em regras que determinam quais pacotes de dados são permitidos ou bloqueados. Essas regras são configuradas pelos administradores de rede e podem variar de acordo com as necessidades e políticas de segurança da organização. Aqui está uma visão geral de como um firewall funciona:
 
@@ -219,7 +219,7 @@ Um firewall opera com base em regras que determinam quais pacotes de dados são 
 
 O firewall desempenha um papel crítico na proteção da rede contra ameaças cibernéticas, permitindo o tráfego legítimo, bloqueando o tráfego indesejado e, em alguns casos, utilizando o NAT para gerenciar o acesso à Internet a partir de dispositivos internos.
 
-# Funcionamento do Antivírus
+## Funcionamento do Antivírus
 
 Um antivírus é uma ferramenta essencial para proteger sistemas contra ameaças de malware, incluindo vírus, worms, trojans e outros tipos de software malicioso. Vamos explorar detalhadamente como um antivírus opera para garantir a segurança do sistema.
 
