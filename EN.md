@@ -15,7 +15,7 @@
 
 <hr> 
 
-# Hacking Fundamentals: Getting Started
+# Hacking Fundamentals: Getting Started 
 
 **Important Notice**  
 If you've found this documentation, consider yourself fortunate. There are many fraudulent courses and promises of becoming a "Professional Hacker" in a short period, typically in 15 to 30 hours of study. However, it's essential to understand that cybersecurity and ethical hacking are not skills that can be mastered in such a short time.
