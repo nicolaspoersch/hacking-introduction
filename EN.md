@@ -13,7 +13,7 @@
   <a href="https://github.com/nicolaspoersch">Nicolas Poersch</a>
 </div>
 
-<hr>
+<hr> 
 
 # Hacking Fundamentals: Getting Started
 
